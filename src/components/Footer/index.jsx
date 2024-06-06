@@ -5,7 +5,7 @@ import style from './Footer.module.css'
 function Footer() {
   const location = useLocation();
 
-  const esInicio = location.pathname === '/aluraflix';
+  const esInicio = location.pathname === '/aluraflix' || location.pathname === '/aluraflix/';
 
   return (
     <div className={`${style.contenidoFooter} ${esInicio ? style.fondoFooterHome : style.fondoFooterNuevoVideo}`}>
