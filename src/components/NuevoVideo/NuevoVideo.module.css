@@ -1,0 +1,38 @@
+.contenidoNuevoVideo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    margin: 50px 0;
+}
+
+.tituloContenido{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    text-align: center;
+    text-transform: uppercase;
+    margin-bottom: 40px;
+}
+
+.tituloContenido h1{
+    font-size: 36px;
+    font-weight: 800;
+}
+
+.tituloContenido p{
+    font-size: 12px;
+}
+
+.contenidoForm{
+    width: 85%;
+}
+
+.tituloForm{
+    font-size: 26px;
+    border-top: 2px solid rgba(128, 128, 128, 0.3);
+    border-bottom: 2px solid rgba(128, 128, 128, 0.3);
+    padding: 15px 0px;
+    margin-bottom: 40px;
+}

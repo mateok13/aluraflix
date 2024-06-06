@@ -1,0 +1,67 @@
+.contenidoNavBar{
+    width: 100%;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-bottom: 3px solid #2271D1;
+    box-shadow: 0px 15px 16px -10px #2271D1;
+}
+
+.fondoNavBarHome{
+    background-color: #262626;
+}
+
+.fondoNavBarNuevoVideo{
+    background-color: rgba(0, 0, 0, 0.9);
+}
+
+.contenidoLogo{
+    display: flex;
+    justify-content: start;
+    width: 50%;
+    margin-left: 30px;
+}
+
+.contenidoBotones{
+    display: flex;
+    justify-content: end;
+    width: 50%;
+    margin-right: 30px;
+    gap: 20px;
+}
+
+.logoAluraFlix{
+    height: 30px;
+}
+
+.botonNavBar{
+    border-radius: 10px;
+    height: 35px;
+    width: 120px;
+    font-size: 12px;
+    font-weight: 800;
+    text-transform: uppercase;
+}
+
+.botonSeleccionado{
+    background-color: black;
+    color: #2271D1;
+    border: 1px solid #2271D1;
+    box-shadow: inset 0 0 10px #2271D1;
+}
+
+.botonSeleccionado:hover{
+    box-shadow: inset 0 0 20px #2271D1;
+}
+
+.botonNoSeleccionado{
+    background: none;
+    color: white;
+    border: 1px solid white;
+}
+
+.botonNoSeleccionado:hover{
+    background-color: white;
+    color: black;
+}

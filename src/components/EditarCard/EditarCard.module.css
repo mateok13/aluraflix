@@ -1,0 +1,88 @@
+.contenidoEditarCard {
+    display: flex;
+    flex-direction: column;
+    width: 60vh;
+    padding: 30px 80px;
+    gap: 30px;
+}
+
+.formEditarCard {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    color: white;
+    font-size: 12px;
+}
+
+.tituloForm {
+    font-weight: 800;
+    text-transform: uppercase;
+    color: #2271D1;
+    font-size: 32px;
+}
+
+.contenidoInput {
+    display: flex;
+    flex-direction: column;
+}
+
+.labelForm {
+    margin-bottom: 10px;
+}
+
+.inputForm {
+    border: 2px solid #2271D1;
+    border-radius: 5px;
+    background: none;
+    padding: 10px;
+    color: white;
+}
+
+.inputForm:hover{
+    border: 2px solid #6BD1FF
+}
+
+.textAreaForm {
+    height: 40px;
+}
+
+.optionCategoria{
+    background-color: #03122F;
+}
+
+.contenidoBoton {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.botonesForm {
+    border-radius: 10px;
+    height: 35px;
+    width: 120px;
+    font-size: 12px;
+    font-weight: 800;
+    text-transform: uppercase;
+}
+
+.botonGuardar {
+    background-color: black;
+    color: #2271D1;
+    border: 1px solid #2271D1;
+    box-shadow: inset 0 0 10px #2271D1;
+}
+
+.botonGuardar:hover {
+    box-shadow: inset 0 0 20px #2271D1;
+}
+
+.botonLimpiar {
+    background: none;
+    color: white;
+    border: 1px solid white;
+}
+
+.botonLimpiar:hover {
+    background-color: white;
+    color: black;
+}
