@@ -5,7 +5,7 @@ import style from './NavBar.module.css';
 function NavBar() {
     const location = useLocation();
 
-    const esInicio = location.pathname === '/aluraflix';
+    const esInicio = location.pathname === '/aluraflix' || location.pathname === '/aluraflix/';
 
     return (
         <div className={`${style.contenidoNavBar} ${esInicio ? style.fondoNavBarHome : style.fondoNavBarNuevoVideo}`}>
