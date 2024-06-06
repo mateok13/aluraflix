@@ -1,4 +1,5 @@
-import { Link, useLocation } from 'react-router-dom';
+import { Link, useLocation } from 'react-router-dom'
+import { LogoAluraFlix } from '../../assets/recursos'
 import style from './NavBar.module.css';
 
 function NavBar() {
@@ -9,14 +10,14 @@ function NavBar() {
     return (
         <div className={`${style.contenidoNavBar} ${esInicio ? style.fondoNavBarHome : style.fondoNavBarNuevoVideo}`}>
             <div className={style.contenidoLogo}>
-                <img className={style.logoAluraFlix} src="src\assets\LogoMain.png" />
+                <img className={style.logoAluraFlix} src={LogoAluraFlix} />
             </div>
             <div className={style.contenidoBotones}>
-                <Link to="/">
+                <Link to="/aluraflix">
                     <button className={`${style.botonNavBar} ${esInicio ? style.botonSeleccionado : style.botonNoSeleccionado}`} >Home</button>
                 </Link>
 
-                <Link to="/nuevoVideo">
+                <Link to="/aluraflix/nuevoVideo">
                     <button className={`${style.botonNavBar} ${!esInicio ? style.botonSeleccionado : style.botonNoSeleccionado}`} >Nuevo Video</button>
                 </Link>
             </div>

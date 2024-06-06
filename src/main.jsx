@@ -9,7 +9,7 @@ import './index.css'
 
 const router = createBrowserRouter([
   {
-    path: '/',
+    path: '/aluraflix',
     element: <Layout />,
     children: [
       { index: true, element: <App /> },
