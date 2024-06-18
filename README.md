@@ -1,8 +1,13 @@
-# React + Vite
+# Challenge Alura Geek
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Realizado con:
+- Json-Server
+- React Jsx
+- CSS
+- JavaScript
 
-Currently, two official plugins are available:
+## Descripción
+Plataforma que permite agregar, listar y eliminar items de una base de datos Json-Server.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Ejecutar el proyecto
+Para ejecutar el proyecto debes tener instalado <a href="https://nodejs.org/en/download/current" target="_blank">Node.js</a> y te recomiendo correrlo desde <a href="https://code.visualstudio.com/" target="_blank">Visual Studio Code</a> y en alguna terminal primero ejecutar el comando npm install, luego correr la base de datos en alguna terminal ya sea la de Visual Studio Code, la del sistema operativo o alguna que tengas instalada con el comando npx json-server --watch db.json --port 3000 y por ultimo correr la vista con el comando npm run dev.
