@@ -1,4 +1,4 @@
-# Challenge Alura Geek
+# Challenge Alura Flix
 
 ## Realizado con:
 - Json-Server
