@@ -1,0 +1,90 @@
+{
+  "categorias": [
+    {
+      "id": "1",
+      "nombre": "front end"
+    },
+    {
+      "id": "2",
+      "nombre": "back end"
+    },
+    {
+      "id": "3",
+      "nombre": "innovación y gestión"
+    }
+  ],
+  "videos": [
+    {
+      "titulo": "Cuándo usar let, var y const? #AluraMás",
+      "imagen": "https://i.ytimg.com/vi/PztCEdIJITY/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLDJWqQzWreQLTp7q4esMjlV1roLTA",
+      "video": "https://www.youtube.com/watch?v=PztCEdIJITY",
+      "categoriaId": "1",
+      "descripcion": "Challenge AluraFlix",
+      "id": "1"
+    },
+    {
+      "id": "2",
+      "titulo": "¿Qué es JavaScript?",
+      "imagen": "https://i.ytimg.com/vi/GJfOSoaXk4s/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLAfCWN4npfWUBdrGczCKogB-Qvi1g",
+      "video": "https://www.youtube.com/watch?v=GJfOSoaXk4s",
+      "categoriaId": "1",
+      "descripcion": "Challenge AluraFlix"
+    },
+    {
+      "titulo": "Equipo Front End #AluraMás",
+      "imagen": "https://i.ytimg.com/vi/rpvrLaBQwgg/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLDoKpoRlVQCz_RrJKrwuA9onAd7Rw",
+      "video": "https://www.youtube.com/watch?v=rpvrLaBQwgg",
+      "categoriaId": "1",
+      "descripcion": "Challenge AluraFlix",
+      "id": "3"
+    },
+    {
+      "id": "4",
+      "titulo": "Spring Framework. ¿Qué es ? #AluraMás",
+      "imagen": "https://i.ytimg.com/vi/t-iqt1b2qqk/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLDovSFByVwRvRdwIhaZYSJUGw2Rog",
+      "video": "https://www.youtube.com/watch?v=t-iqt1b2qqk",
+      "categoriaId": "2",
+      "descripcion": "Challenge AluraFlix"
+    },
+    {
+      "id": "5",
+      "titulo": "¿Qué es SQL y NoSQL?",
+      "imagen": "https://i.ytimg.com/vi/cLLKVd5CNLc/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLDF192TpYhfpj_db3MARwWCgVFBpQ",
+      "video": "https://www.youtube.com/watch?v=cLLKVd5CNLc",
+      "categoriaId": "2",
+      "descripcion": "Challenge AluraFlix"
+    },
+    {
+      "id": "6",
+      "titulo": "Simplificando tu código en Java: Conoce los enum #AluraMás",
+      "imagen": "https://i.ytimg.com/vi/EoPvlE85XAQ/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLDBLywQFxiv6SwpRuISBiQyIFdR-A",
+      "video": "https://www.youtube.com/watch?v=EoPvlE85XAQ",
+      "categoriaId": "2",
+      "descripcion": "Challenge AluraFlix"
+    },
+    {
+      "id": "7",
+      "titulo": "¿Qué son las Soft Skills?",
+      "imagen": "https://i.ytimg.com/vi/vhwspfvI52k/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLDxc_0rcRKCUTqYZXq2YUcjczMJNg",
+      "video": "https://www.youtube.com/watch?v=vhwspfvI52k",
+      "categoriaId": "3",
+      "descripcion": "Challenge AluraFlix"
+    },
+    {
+      "id": "8",
+      "titulo": "7 Soft Skills más deseadas por las empresas #AluraMás",
+      "imagen": "https://i.ytimg.com/vi/YhR7Zp8NUzE/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLApSY-UYiv7541vDw1U-p_iqiq-VA",
+      "video": "https://www.youtube.com/watch?v=YhR7Zp8NUzE",
+      "categoriaId": "3",
+      "descripcion": "Challenge AluraFlix"
+    },
+    {
+      "id": "9",
+      "titulo": "¿Qué son las metodologias ágiles?",
+      "imagen": "https://i.ytimg.com/vi/6N3OkLCfK-0/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLDHL_X4Hc7j2GSNcclFDT33KV5USQ",
+      "video": "https://www.youtube.com/watch?v=6N3OkLCfK-0",
+      "categoriaId": "3",
+      "descripcion": "Challenge AluraFlix"
+    }
+  ]
+}

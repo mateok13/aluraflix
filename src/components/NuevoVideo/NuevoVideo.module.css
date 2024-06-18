@@ -1,13 +1,14 @@
-.contenidoNuevoVideo{
+.contenidoNuevoVideo {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     color: white;
     margin: 50px 0;
+    padding-top: 70px;
 }
 
-.tituloContenido{
+.tituloContenido {
     display: flex;
     flex-direction: column;
     gap: 30px;
@@ -16,23 +17,123 @@
     margin-bottom: 40px;
 }
 
-.tituloContenido h1{
+.tituloContenido h1 {
     font-size: 36px;
     font-weight: 800;
 }
 
-.tituloContenido p{
+.tituloContenido p {
     font-size: 12px;
 }
 
-.contenidoForm{
+.contenidoForm {
     width: 85%;
 }
 
-.tituloForm{
+.tituloForm {
     font-size: 26px;
     border-top: 2px solid rgba(128, 128, 128, 0.3);
     border-bottom: 2px solid rgba(128, 128, 128, 0.3);
     padding: 15px 0px;
     margin-bottom: 40px;
+}
+
+.formNuevoVideo {
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 12px;
+    gap: 10px;
+}
+
+.contenidoInput {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    flex: 1 0 40%;
+}
+
+.inputForm{
+    border: 2px solid rgba(128, 128, 128, 0.3);
+    border-radius: 5px;
+    background: none;
+    padding: 10px;
+    color: white;
+}
+
+.inputForm:hover{
+    border: 2px solid white;
+}
+
+.optionCategoria{
+    background-color: #262626;
+}
+
+.textAreaForm {
+    height: 20vh;
+    width: 40vw;
+}
+
+.contenidoBoton {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.botonesForm {
+    border-radius: 10px;
+    height: 35px;
+    width: 120px;
+    font-size: 12px;
+    font-weight: 800;
+    text-transform: uppercase;
+}
+
+.botonGuardar {
+    background: none;
+    color: white;
+    border: 1px solid #2271D1;
+}
+
+.botonGuardar:hover {
+    background-color: #2271D1;
+    color: black;
+}
+
+.botonLimpiar {
+    background: none;
+    color: white;
+    border: 1px solid white;
+}
+
+.botonLimpiar:hover {
+    background-color: white;
+    color: black;
+}
+
+@media screen and (max-width: 480px) {
+    .contenidoNuevoVideo{
+        padding-top: 0;
+        padding-bottom: 70px;
+    }
+
+    .contenidoInput{
+        width: 100%;
+    }
+
+    .textAreaForm{
+        width: 92%;
+    }
+
+    .tituloContenido{
+        padding: 30px;
+    }
+
+    .contenidoBoton{
+        padding-top: 30px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+    }
 }

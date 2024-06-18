@@ -1,15 +1,111 @@
-.contenidoCard{
-
+.contenidoCard {
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    border-radius: 10px;
+    overflow: hidden;
 }
 
-.imagenCard{
-    
+.cardFront{
+    box-shadow: 0 0 20px 10px #6BD1FF;
 }
 
-.contenidoBotonesCard{
-
+.cardBack{
+    box-shadow: 0 0 20px 10px #00C86F;
 }
 
-.botonesCard{
+.cardInnova{
+    box-shadow: 0 0 20px 10px #FFBA05;
+}
 
+.imagenCard {
+    width: 100%;
+    height: 30vh;
+}
+
+.contenidoBotonesCard {
+    background-color: rgba(0, 0, 0, 0.9);
+    box-shadow: 0px -15px 16px -10px #2271D1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+.botonesCard {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+    width: 50%;
+    border: none;
+    background: none;
+    color: white;
+    cursor: pointer;
+    text-transform: uppercase;
+    padding: 5px;
+    font-size: 12px;
+    font-weight: 800;
+}
+
+.botonesCard:hover {
+    background-color: white;
+    color: black;
+}
+
+.contenidoCategorias {
+    padding: 0 30px 30px 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.tituloCategoria {
+    text-transform: uppercase;
+    font-size: 22px;
+    color: white;
+    width: 310px;
+    text-align: center;
+    padding: 10px;
+    border-radius: 10px;
+    font-weight: 800;
+}
+
+.tituloCategoriaFrontend {
+    background-color: #6BD1FF;
+}
+
+.tituloCategoriaBackend {
+    background-color: #00C86F;
+}
+
+.tituloCategoriaInnova {
+    background-color: #FFBA05;
+}
+
+.contenidoListaCards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 50px;
+}
+
+@media screen and (max-width: 768px) {
+    .contenidoCard {
+        width: calc(50% - 30px);
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .tituloCategoria {
+        width: 200px;
+    }
+
+    .contenidoCard {
+        width: 100%;
+    }
+
+    .contenidoListaCards{
+        padding-bottom: 70px;
+    }
 }

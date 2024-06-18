@@ -16,7 +16,6 @@ function NavBar() {
                 <Link to="/aluraflix">
                     <button className={`${style.botonNavBar} ${esInicio ? style.botonSeleccionado : style.botonNoSeleccionado}`} >Home</button>
                 </Link>
-
                 <Link to="/aluraflix/nuevoVideo">
                     <button className={`${style.botonNavBar} ${!esInicio ? style.botonSeleccionado : style.botonNoSeleccionado}`} >Nuevo Video</button>
                 </Link>

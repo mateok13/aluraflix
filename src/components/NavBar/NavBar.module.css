@@ -1,4 +1,6 @@
 .contenidoNavBar{
+    position: fixed;
+    top: 0;
     width: 100%;
     height: 70px;
     display: flex;
@@ -64,4 +66,10 @@
 .botonNoSeleccionado:hover{
     background-color: white;
     color: black;
+}
+
+@media screen and (max-width: 480px) {
+    .contenidoNavBar{
+        display: none;
+    }
 }
